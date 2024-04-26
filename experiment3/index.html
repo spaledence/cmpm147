@@ -53,27 +53,33 @@
 				<p>Generate an overworld and dungeon landscape with some autotiling and editable with the textboxes underneath.<br>
 					<u>Overworld Codes</u><br>
 					"_" = grass<br>
-					"~" = water<br>
-					"t" = tree<br>
+					"w" = water<br>
+					"." = edge<br>
 					"h" = house<br>
+					"^" = dirt<br>
 					<u>Dungeon Codes</u><br>
 					"_" = wall<br>
 					"." = room floor<br>
 					"c" = chest<br>
+					"p" = path<br>
+					"^" = dirt<br
 					Tiles from from <a href="https://thkaspar.itch.io/micro-tileset-overworld-dungeon">Micro Tileset - Overworld & Dungeon by thkaspar</a>
 				</p>
 			</div>
 			<div class="minor-section">
 				<h2>Technical</h2>
-				<p>First the textbox is created and filled in with the constraints that I set. For example I limited the water to only the bottom of the canvas for
-					the overworld generation, chest generation can only happen on room tiles and at a small percentage, etc. It then draws the tiles based
-					on the code from the given tileset.
+				<p>First the textbox is created and filled in with the constraints that we set based on how we want our map to look. From there,
+					we place tiles in said locations of the grid based on the value of the variable in each grid row, column pair. These tiles are customizable and ultimately make up the visual aspect of our world.
 				</p>
 			</div>
 
 			<div class="minor-section">
 				<h2>Reflection</h2>
-				<p>This assignment was rough. The autotiling portion was actually pretty straightforward once I took the time to process the tutorial, but the problem was the inability to layer and tiles without a background. I definitely put in a lot of effort into the project, but most of it was from trying to understand and get things working correctly rather than expressing creativity. Implementing into GitHub pages did need some more messing around with html than the other assignments which was nice. Figuring out some way to add life was also a struggle since it kept crashing every time I edited base and I wanted to do the clouds thing, but the rectangle didn’t show up. I did wish there were better instructions for this experiment.</p>
+				<p>Honestly, this project was a lot more work than I initially expected. I went into this project starting a late due to another class project, 
+					and I was not aware of how much work it actually was. It took me a while to figure out how exactly the tiles were working and it was especially hard for me to understand how to implement auto tiling given the instructions we had.
+					 I actually read through the tutorial link and I feel like I have a decent understanding of how auto tiling works, but I was not able to make it work properly in my program. I did give it several attempts though and got a pseudo method of it working, 
+					 but my tile offsets for corners and sides were not how I wanted them, and I feel like at this point I just need to turn something in that works, so I scrapped what I had. 
+				</p>
 			</div>
 
 		</section>
