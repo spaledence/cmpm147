@@ -1,5 +1,5 @@
   /* exported p4_inspirations, p4_initialize, p4_render, p4_mutate */
-
+//comment
 
   function getInspirations() {
     return [
