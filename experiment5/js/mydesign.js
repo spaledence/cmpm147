@@ -8,7 +8,7 @@
         assetUrl: "img/mario.webp",
         credit: "Super Mario Winking",
         color: true, 
-        ellipse: true
+        ellipse: false
       },
       {
         name: "Jupiter", 
